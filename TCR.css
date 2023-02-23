@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4F4F4F;
+}
+#txt-cadastro{
+    position: absolute;
+    writing-mode: vertical-lr;
+    right: 123px;
+    top: 67px;
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 32px;
+    color: gold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+    pointer-events: none;
+}
+
+#container-left{
+    position: absolute;
+    background-color: #1C1C1C;
+    width: 400px;
+    height: 500px;
+    top: 60px;
+    right: 180px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+    
+}
+#user{
+    position: absolute;
+    top: 150px;
+    width: 80%;
+    left: 38px;
+    border: none;
+    outline: none;
+    color: antiquewhite;
+    text-align: center;
+    border-bottom: 2px solid #696969;
+    background-color: transparent;
+    font-size: 15px;
+    transition: all .3s ease-out;
+    font-family: 'Chillax', sans-serif;
+}
+#email{
+    position: absolute;
+    top: 240px;
+    width: 80%;
+    left: 38px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: antiquewhite;
+    text-align: center;
+    border-bottom: 2px solid #696969;
+    font-family: 'Chillax', sans-serif;
+    font-size: 15px;
+}
+#password{
+    position: absolute;
+    top: 330px;
+    width: 80%;
+    left: 38px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: antiquewhite;
+    text-align: center;
+    border-bottom: 2px solid #696969;
+    font-family: 'Chillax', sans-serif;
+    font-size: 15px;
+}
+#cadastro{
+    position: absolute;
+    bottom: 60px;
+    left: 37px;
+    padding: 10px 134px;
+    border-radius: 10px;
+    background-color: gold;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    color: #1C1C1C;
+}
+#cadastro:hover{
+    background-color: rgb(224, 193, 15);
+    cursor: pointer;
+}
+#face{
+    position: absolute;
+    top: 50px;
+    left: 232px;
+    width: 30px;
+}
+#face:hover{
+    cursor: pointer;
+}
+#insta{
+    width: 30px;
+    position: absolute;
+    top: 50px;
+    left: 132px;
+}
+#insta:hover{
+    cursor: pointer;
+}
+#twitter{
+    width: 30px;
+    position: absolute;
+    top: 50px;
+    left: 182px;
+}
+#twitter:hover{
+    cursor: pointer;
+}
+p{
+    color: antiquewhite;
+    position: absolute;
+    left: 188px;
+    top: 105px;
+    pointer-events: none;
+}
+.img{
+    position: absolute;
+    width: 600px;
+    left: 60px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1210px){
+    .container-left{
+        width: 350px;
+        height: 450px;
+    }
+    #cadastro{
+        padding: 10px 105px;
+    }
+    #email{
+        top: 220px;
+    }
+    #password{
+        top: 285px;
+    }
+    #insta{
+        left: 110px;
+    }
+    #twitter{
+        left: 160px;
+    }
+    #face{
+        left: 210px;
+    }
+    p{
+        left: 170px;
+    }
+    #txt-cadastro{
+        top: 85px;
+        letter-spacing: 20px;
+    }
+    .img{
+        width: 500px;
+        top: 35px;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1070px){
+    .container-left{
+        top: 0;left: 0;bottom: 0;right: 0;margin: auto;
+    }
+    
+}
+@media only screen and (max-width: 1070px) and (min-width: 700px){
+    .img{
+        display: none;
+        visibility: hidden;
+    }
+    #txt-cadastro{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 700px) and (min-width: 500px){
+    .container-left{
+        position: relative;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 100;
+        margin: auto;
+    }
+    .img{
+        display: none;
+        visibility: hidden;
+    }
+    #txt-cadastro{
+        writing-mode: initial;
+        letter-spacing: 10px;
+        top: 570px;
+        right: 170px;
+        left: 170px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .img{
+        display: none;
+        visibility: hidden;
+    }
+    #txt-cadastro{
+        display: none;
+        visibility: hidden;
+    }
+    .container-left{    
+            position: relative;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            top: 200;
+            margin: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    .img{
+        display: none;
+        visibility: hidden;
+    }
+    #txt-cadastro{
+        display: none;
+        visibility: hidden;
+    }
+    .container-left{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    #email{
+        border-bottom: 2px solid black;
+    }
+    #email::placeholder{
+        color: black;
+    }
+    #user{
+        border-bottom: 2px solid black;
+    }
+    #user::placeholder{
+        color: black;
+    }
+    #password{
+        border-bottom: 2px solid black;
+        
+    }
+    #password::placeholder{
+        color: black;
+    }
+}
