@@ -47,26 +47,13 @@ body{
     text-align: center;
     border-bottom: 2px solid #696969;
     background-color: transparent;
-    font-size: 15px;
+    font-size: 17px;
     transition: all .3s ease-out;
-    font-family: 'Chillax', sans-serif;
-}
-#email{
-    position: absolute;
-    top: 240px;
-    width: 80%;
-    left: 38px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: antiquewhite;
-    text-align: center;
-    border-bottom: 2px solid #696969;
     font-family: 'Chillax', sans-serif;
 }
 #password{
     position: absolute;
-    top: 330px;
+    top: 260px;
     width: 80%;
     left: 38px;
     border: none;
@@ -76,10 +63,11 @@ body{
     text-align: center;
     border-bottom: 2px solid #696969;
     font-family: 'Chillax', sans-serif;
+    font-size: 17px;
 }
 #login{
     position: absolute;
-    bottom: 60px;
+    bottom: 90px;
     left: 37px;
     padding: 10px 144px;
     border-radius: 10px;
