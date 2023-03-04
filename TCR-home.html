@@ -3,11 +3,247 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>home-TCR</title>
+    <link rel="stylesheet" href="TCR-home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body style="background-color: rgb(233, 231, 231);">
+    <!------------------------------área da navbar----------------------------->
+          <nav class="navbar navbar-expand-lg bg-light" style=" width: 100%; height: 100px; box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.288);">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color: goldenrod; font-weight: 800; font-size: 20px;">Tecnologia Rica</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <!--frameworks e bibliotecas de js (dropdowns)-->
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      JavaScript
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Angular</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Ember</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Vue</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">jQuery</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">D3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">React</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Glimmer</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Babel</a></li>
+                    </ul>
+                    <!--frameworks e bibliotecas do java (dropdowns)-->
+                    <!--Spring.
+                    Hibernate.
+                    Quarkus.
+                    Struts.
+                    JSF — Java Server Faces.
+                    Grails.
+                    Vaadin.
+                    Blade.-->
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Java
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Spring</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Hibernate</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Quarkus</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Struts</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">JSF — Java Server Faces</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Grails</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Vaadin</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Blade</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Java.io</a></li>
+                    </ul>
+                  </li>
+                  <!--frameworks e bibliotecas de python (dropdowns)-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Python
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Django</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Flask</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Hug</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Tornado</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Web2py</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Botlle</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CherryPy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Falcon</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Piramide</a></li>
+                    </ul>
+                  </li>
+                  <!--frameworks e bibliotecas de C# (dropdowns)-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      C#
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">NancyFX</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">SignalR</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Cache Cow</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">.Net</a></li>
+                    </ul>
+                  </li>
+                  <!--frameworks e bibliotecas de php (dropdowns)
+                  Laravel.
+                  CodeIgniter.
+                  Symfony.
+                  Zend.
+                  Phalcon.
+                  CakePHP.
+                  Yii.-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      php
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Laravel</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CodeIgniter</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Symfony</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Zend</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Phalcon</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CakePHP</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Yii</a></li>
+                    </ul>
+                  </li>
+                  <!--frameworks e bibliotecas de ruby (dropdowns)-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ruby
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Rails</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Sinatra</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Roda</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Camping</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Ramaze</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Goliath</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Hanami</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Padrino</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">NYNY</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Resque</a></li>
+                    </ul>
+                  </li>
+                  <!----------------------botao de mais linguagens------------------------->
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Mais linguagens</a>
+                  </li>
+                </ul>
+                <!------------------------botao de pesquisa---------------------------------->
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-----------------------------carousel----------------------------------------->
+    <div class="container">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false"
+          style="height: 500px; width: 800px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/programin.jpg" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.555);">
+                  <h5>procura-se devs!</h5>
+                  <p>Área de TI tem aumento de 86% em 2022.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/tebela.jpg" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.555);"">
+                  <h5>For up!</h5>
+                  <p>Programação é a área que mais cresce dentre as profissões.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/dinheiro.jpg" class="d-block w-100
+                " alt="..." style="border-radius: 20px;"">
+                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.555);"">
+                  <h5>Din-din</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-------------------cards---------------------->
+          <div class="cards">
+              <div class="card" id="card1" style="width: 20rem;">
+                <img src="imgs/progamador.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">pesquisa aponta que em 2030 teremos mais de <strong>790 mil</strong> vagas na áea de tecnologia.</p>
+                </div>
+              </div>
+
+              <div class="card" id="card2" style="width: 20rem;">
+                <img src="imgs/lula.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>"é preciso regulamentar as redes sociais!"</strong> diz o atual <p style="color: darkorange; font-weight: 600;">presidente Luíz Inacio Lula da Silva</p> </p>
+                </div>
+              </div>
+
+              <div class="card" id="card3" style="width: 20rem;">
+                <img src="imgs/progamador.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">pesquisa aponta que em 2030 teremos mais de <strong>790 mil</strong> vagas na áea de tecnologia.</p>
+                </div>
+              </div>
+          </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
